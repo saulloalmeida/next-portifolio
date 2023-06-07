@@ -1,86 +1,78 @@
-import type { Metadata } from 'next';
 import {
-  GitHubIcon,
-  YoutubeIcon,
   ArrowIcon,
+  GitHubIcon,
   TwitterIcon,
-} from 'components/icons';
+  YoutubeIcon,
+} from "components/icons";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'About',
-  description: 'VP of Developer Experience at Vercel.',
+  title: "Sobre Mim",
+  description: "Desenvolvedor de Software Full Stack.",
 };
 
 export default function AboutPage() {
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">About Me</h1>
-      <p className="my-5 text-neutral-800 dark:text-neutral-200">
-        Hey, I'm Lee. Most folks know me as <b>leerob</b> online.
-      </p>
+
       <div className="prose prose-neutral dark:prose-invert text-neutral-800 dark:text-neutral-200">
         <p>
-          I'm currently the <b>VP of Developer Experience at Vercel</b>, where I
-          lead our Developer Relations and Documentation teams. I focus on{' '}
-          <b>educating and growing</b> the Vercel and Next.js communities.
+        Sou Desenvolvedor de Software Full Stack, buscando a primeira
+        oportunidade na área. Atuo há mais de 10 anos na área financeira, no
+        atendimento a clientes e na solução de problemas.
         </p>
         <hr />
-        <p>
-          I'm passionate about many creative pursuits, including music,
-          photography, videography, and of course, coding. This combination of
-          interests is what ultimately led me to my current role in building
-          developer communities.
+        <p>Meus projetos e estudos estão focados em tecnologias como
+          typescript, react, nextjs, prisma, tailwindCSS, node, html, css, javasript.
         </p>
-        <p>
-          I <b>love</b> building for the web. From something as simple as a
-          single HTML file – all the way to large Next.js applications. The web
-          is incredible. Anyone can become a developer, writer, or creator – and
-          no one has to ask for permission. You can just build.
+         <p>
+         Tenho graduação em
+        Computação e pós graduado em Tecnologias de Desenvolvimento Web, meu
+        olho brilha demais pela área de tecnologia e sempre gostei de conhecer
+        várias tecnologias diferentes, como por exemplo PHP/Laravel,
+        Dart/Flutter, Javascript, entre outras.
+         </p>
+        <p>          Depois de quase 10 anos no meu
+        emprego atual, me perguntei onde gostaria de estar e a resposta foi na
+        área de tecnologia. Então, juntei forças, coragem e estou aqui, contando
+        um pouco da minha história e tentando me realocar no mercado de
+        trabalho.
         </p>
-        <p className="mb-8">
-          Outside of Vercel, I <b>angel invest</b> in developer tools companies
-          and <b>advise early-stage startups</b>. I also do Developer Relations
-          consulting work, helping companies take their DevRel function from 0
-          to 1, or provide guidance on growing communities, content creation,
-          and developer marketing.
-        </p>
+        <p>Faço o treinamento Ignite da RocketSeat (incrível por sinal!), que
+        possuem trilhas de React, Node, React Native e outras. Me considero
+        aberto em aprender novas tecnologias, ter novas experiências, me
+        desenvolver cada vez mais no pessoal e profissional, me adapto às
+        mudanças e tenho certeza que estou pronto para superar qualquer desafio!
+        Peço uma oportunidade para me conhecerem um pouco mais, pois desejo
+        sinceramente me realocar no mercado de trabalho para área que de fato eu
+        amo e me identifico.</p>
         <div className="flex flex-col gap-2 md:flex-row md:gap-2">
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://www.linkedin.com/in/saullo-almeida/"
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
-              <TwitterIcon />
-              <div className="ml-3">Twitter</div>
+              {/* <TwitterIcon /> */}
+              <div className="ml-3">LinkedIn</div>
             </div>
             <ArrowIcon />
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/saulloalmeida"
             className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
           >
             <div className="flex items-center">
-              <GitHubIcon />
+              {/* <GitHubIcon /> */}
               <div className="ml-3">GitHub</div>
             </div>
             <ArrowIcon />
           </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.youtube.com/@leerob"
-            className="flex w-full border border-neutral-200 dark:border-neutral-800 rounded-lg p-4 no-underline items-center text-neutral-800 dark:text-neutral-200 hover:dark:bg-neutral-900 hover:bg-neutral-100 transition-all justify-between"
-          >
-            <div className="flex items-center">
-              <YoutubeIcon />
-              <div className="ml-3">YouTube</div>
-            </div>
-            <ArrowIcon />
-          </a>
+
         </div>
       </div>
     </section>

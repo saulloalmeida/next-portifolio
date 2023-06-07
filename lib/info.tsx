@@ -1,22 +1,20 @@
-import me from '../app/avatar.jpg';
+import me from "../app/avatar.png";
 
-export const name = 'Lee Robinson';
+export const name = "Saullo Almeida";
 export const avatar = me;
 export const about = () => {
   return (
     <>
-      Hey, I'm Lee. I'm the <b>VP of Developer Experience at Vercel</b> where my
-      team helps developers build a faster web.
+      Olá! Me chamo Saullo, é um prazer te ver aqui, espero que esteja tudo bem!
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      I'm a Next.js contributor and help lead our open-source communities. I'm
-      passionate about frontend development and have created courses on React,
-      Next.js, and web development. I'm an advisor and investor in early stage
-      startups.
+      Sou Desenvolvedor de Software Full Stack, buscando a primeira oportunidade
+      na área. Atuo há mais de 10 anos na área financeira, no atendimento a
+      clientes e na solução de problemas.
     </>
   );
 };

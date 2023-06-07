@@ -10,14 +10,17 @@ const navItems = {
     name: 'home',
   },
   '/about': {
-    name: 'about',
+    name: 'sobre mim',
   },
-  '/blog': {
-    name: 'blog',
+  '/projects': {
+    name: 'projetos',
   },
-  '/guestbook': {
-    name: 'guestbook',
-  },
+  // '/blog': {
+  //   name: 'blog',
+  // },
+  // '/guestbook': {
+  //   name: 'guestbook',
+  // },
 };
 
 function Logo() {

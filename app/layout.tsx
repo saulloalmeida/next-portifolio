@@ -14,15 +14,15 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Saullo Almeida',
+    template: '%s | Saullo Almeida',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Desenvolvedor Fullstack',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
+    title: 'Saullo Almeida',
+    description: 'Desenvolvedor Fullstack',
     url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    siteName: 'Saullo Almeida',
     images: [
       {
         url: 'https://leerob.io/og.jpg',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         height: 1080,
       },
     ],
-    locale: 'en-US',
+    locale: 'pt-BR',
     type: 'website',
   },
   robots: {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: 'Lee Robinson',
+    title: 'Saullo Almeida',
     card: 'summary_large_image',
   },
   icons: {
@@ -65,6 +65,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
         kaisei.variable
