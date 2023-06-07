@@ -36,7 +36,7 @@ const products = [
     imageSrc:
       "https://github.com/saulloalmeida/frontend/raw/master/readme.png",
     imageAlt:
-      "imagem do projeto",
+      "imagem do projeto.",
   },
 ];
 export default async function BlogPage() {
